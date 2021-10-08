@@ -5,7 +5,7 @@ function textEffect(element_id, text) {
 	} else {
 		element.innerHTML = '';
 	}
-	setTimeout(() => { textEffect(element_id, text) }, 1000);
+	setTimeout(() => { textEffect(element_id, text) }, 500);
 }
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -1,6 +1,6 @@
 function textEffect(element_id, text) {
 	element = document.getElementById(element_id);
-	if (element.innerHTML !== '') {
+	if (element.innerHTML === '') {
 		element.innerHTML = text;
 	} else {
 		element.innerHTML = '';
